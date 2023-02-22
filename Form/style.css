@@ -1,0 +1,44 @@
+.main {
+    background-color: blueviolet;
+    max-width: 500px;
+    padding: 21px;
+    border-radius: 8px;
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 270px;
+    padding: 19px;
+    background-color: lightgray;
+    border-radius:8px ;
+}
+
+h2 {
+    text-align: center;
+}
+
+.text-field {
+    margin: 8px;
+}
+
+input {
+    width: 125px;
+    margin: 6px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+button {
+    background-color: blueviolet;
+    color: white;
+    margin: 7px;
+    padding: 8px;
+    border-style: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: violet;
+}

@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    background-color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.logo{
+    color: white;
+}
+ul{
+    display: flex;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+ul li{
+    list-style: none;
+    margin-left:15px ;
+}
+.banner{
+    height: 75vh;
+    width: 100vw;
+}
+.banner--image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.article p{
+    line-height: 1.4em;
+}
+.article{
+    background-image: url("../images/pexels-julia-barrantes-15432289.jpg");
+    background-size: cover;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    background-color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+}
